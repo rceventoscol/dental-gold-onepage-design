@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
@@ -19,8 +18,8 @@ const CasesSection = () => {
       title: "Transformación con Carillas",
       description:
         "Paciente con dientes desalineados y manchados. Solución con 8 carillas de porcelana en 2 semanas.",
-      beforeImg: "/placeholder.svg", // Usar placeholder para 'antes'
-      afterImg: "/lovable-uploads/8cb2dd99-1b72-4284-a5db-38b7a324a70b.png", // Nueva imagen 'después'
+      beforeImg: "/lovable-uploads/b701e61b-bed6-41ba-b987-05cbd38da0c5.png",
+      afterImg: "/lovable-uploads/c1e49a48-6371-42c7-ab10-21dffc826101.png",
     },
     {
       id: 2,

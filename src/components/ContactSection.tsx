@@ -24,8 +24,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-gray-800">Teléfono</h4>
-                    <a href="tel:+1234567890" className="text-gray-600 hover:text-gold transition-colors">
-                      +1 (234) 567-890
+                    <a href="tel:+573175012699" className="text-gray-600 hover:text-gold transition-colors">
+                      +57 317 5012699
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Lunes a Viernes: 9am - 7pm</p>
                   </div>
@@ -51,7 +51,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-lg font-medium text-gray-800">Dirección</h4>
                     <p className="text-gray-600">
-                      Calle Principal 123, Madrid, España
+                      Cra. 35 #52-46, Cabecera del llano, Bucaramanga, Santander
                     </p>
                     <p className="text-sm text-gray-500 mt-1">Con parqueo disponible</p>
                   </div>
@@ -84,7 +84,7 @@ const ContactSection = () => {
           <div className="animate-slide-in-right">
             <div className="h-full rounded-lg overflow-hidden shadow-md">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6572348523375!2d-3.7031767846059004!3d40.41694937936422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422880e539a44b%3A0x408a680325ca0b1e!2sMadrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1651561282074!5m2!1sen!2sus" 
+                src="https://www.google.com/maps?q=Cra.+35+%2352-46,+Cabecera+del+llano,+Bucaramanga,+Santander&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ minHeight: "400px", border: 0 }} 
@@ -102,7 +102,7 @@ const ContactSection = () => {
             Da el primer paso hacia tu nueva sonrisa
           </h3>
           <a 
-            href="https://wa.me/1234567890" 
+            href="https://wa.me/573175012699" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary"

@@ -9,6 +9,14 @@ type Testimonial = {
   avatar: string;
 };
 
+const stockImages = [
+  "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=facearea&w=128&q=80",
+  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=128&q=80",
+  "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=facearea&w=128&q=80",
+  "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=facearea&w=128&q=80",
+  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=facearea&w=128&q=80"
+];
+
 const TestimonialsSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -18,35 +26,35 @@ const TestimonialsSection = () => {
       name: "Ana Martínez",
       location: "Madrid",
       quote: "El trabajo del Dr. Iván cambió mi vida. Por fin puedo sonreír con confianza después de años escondiendo mis dientes. Las carillas son perfectas, totalmente naturales.",
-      avatar: "/placeholder.svg",
+      avatar: stockImages[0],
     },
     {
       id: 2,
       name: "Carlos Ruiz",
       location: "Diseñador Gráfico",
       quote: "Como profesional que trabaja de cara al público, mi sonrisa es parte de mi carta de presentación. El Dr. Iván entendió exactamente lo que necesitaba. Resultados impecables.",
-      avatar: "/placeholder.svg",
+      avatar: stockImages[1],
     },
     {
       id: 3,
       name: "Laura Gómez",
       location: "Valencia",
       quote: "El tratamiento de Invisalign con el Dr. Iván fue la mejor decisión. Proceso cómodo, resultados perfectos y atención personalizada en cada visita.",
-      avatar: "/placeholder.svg",
+      avatar: stockImages[2],
     },
     {
       id: 4,
       name: "Javier Sánchez",
       location: "Empresario",
       quote: "Después de años con miedo al dentista, el Dr. Iván me hizo sentir cómodo desde la primera visita. Su profesionalidad y el ambiente de la clínica son excepcionales.",
-      avatar: "/placeholder.svg",
+      avatar: stockImages[3],
     },
     {
       id: 5,
       name: "María López",
       location: "Barcelona",
       quote: "Los implantes dentales realizados por el Dr. Iván son perfectos. Recuperé función y estética, y el proceso fue mucho más sencillo de lo que imaginaba.",
-      avatar: "/placeholder.svg",
+      avatar: stockImages[4],
     },
   ];
 

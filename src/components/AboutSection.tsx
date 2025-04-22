@@ -19,10 +19,12 @@ const AboutSection = () => {
           <div className="md:w-2/5 animate-fade-in">
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl border-2 border-dental-light">
+                {/* Nueva foto profesional del doctor */}
                 <img
-                  src="/placeholder.svg"
+                  src="/lovable-uploads/aa269cfb-7ffa-4806-b95e-0344a9e37e1f.png"
                   alt="Dr. Iván Abril"
                   className="w-full h-auto object-cover"
+                  style={{ objectPosition: "center" }}
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-gold text-white rounded-full p-4 shadow-lg">

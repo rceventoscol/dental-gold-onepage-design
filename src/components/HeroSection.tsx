@@ -1,3 +1,4 @@
+
 import { ArrowDown } from "lucide-react";
 const HeroSection = () => {
   const scrollToAbout = () => {
@@ -8,11 +9,17 @@ const HeroSection = () => {
       });
     }
   };
-  return <section id="hero" className="relative min-h-screen flex items-center pt-16 bg-dental-light" style={{
-    backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80')",
-    backgroundSize: "cover",
-    backgroundPosition: "center"
-  }}>
+  return (
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center pt-16 bg-dental-light"
+      style={{
+        backgroundImage:
+          "linear-gradient(rgba(255, 255, 255, 0.93), rgba(255,255,255,0.93))",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      }}
+    >
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-gray-900 mb-4">
@@ -24,7 +31,12 @@ const HeroSection = () => {
             sonrisas naturales, armónicas y saludables.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a
+              href="https://wa.me/1234567890"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
               Agenda tu valoración
             </a>
             <button onClick={scrollToAbout} className="btn-secondary">
@@ -40,8 +52,14 @@ const HeroSection = () => {
         <div className="md:w-1/2 flex justify-center animate-slide-in-right">
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-gold shadow-xl bg-white flex items-center justify-center">
-              {/* Foto profesional del doctor */}
-              <img src="/lovable-uploads/e33e45c7-dd53-4204-91d1-f9e643c1be7c.png" alt="Dr. Iván Abril, Especialista en Estética Dental" className="w-full h-full object-cover" loading="eager" />
+              {/* Nueva foto de tratamiento odontológico real */}
+              <img
+                src="/lovable-uploads/8cb2dd99-1b72-4284-a5db-38b7a324a70b.png"
+                alt="Tratamiento odontológico profesional"
+                className="w-full h-full object-cover"
+                loading="eager"
+                style={{ objectPosition: "center" }}
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-gold text-white rounded-lg py-3 px-6 shadow-lg">
               <p className="font-playfair font-medium">Estética Dental</p>
@@ -49,9 +67,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <button onClick={scrollToAbout} className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-gold hover:text-gold-dark transition-colors animate-pulse-slow" aria-label="Scroll down">
+      <button
+        onClick={scrollToAbout}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-gold hover:text-gold-dark transition-colors animate-pulse-slow"
+        aria-label="Scroll down"
+      >
         <ArrowDown size={32} />
       </button>
-    </section>;
+    </section>
+  );
 };
 export default HeroSection;

@@ -17,21 +17,24 @@ const CasesSection = () => {
     {
       id: 1,
       title: "Transformación con Carillas",
-      description: "Paciente con dientes desalineados y manchados. Solución con 8 carillas de porcelana en 2 semanas.",
-      beforeImg: "/placeholder.svg",
-      afterImg: "/placeholder.svg",
+      description:
+        "Paciente con dientes desalineados y manchados. Solución con 8 carillas de porcelana en 2 semanas.",
+      beforeImg: "/placeholder.svg", // Usar placeholder para 'antes'
+      afterImg: "/lovable-uploads/8cb2dd99-1b72-4284-a5db-38b7a324a70b.png", // Nueva imagen 'después'
     },
     {
       id: 2,
       title: "Diseño de Sonrisa Completo",
-      description: "Restauración completa con implantes y coronas de cerámica para recuperar función y estética.",
+      description:
+        "Restauración completa con implantes y coronas de cerámica para recuperar función y estética.",
       beforeImg: "/placeholder.svg",
       afterImg: "/placeholder.svg",
     },
     {
       id: 3,
       title: "Ortodoncia Invisible",
-      description: "Corrección de mordida y alineación con Invisalign en 14 meses sin aparatos visibles.",
+      description:
+        "Corrección de mordida y alineación con Invisalign en 14 meses sin aparatos visibles.",
       beforeImg: "/placeholder.svg",
       afterImg: "/placeholder.svg",
     },

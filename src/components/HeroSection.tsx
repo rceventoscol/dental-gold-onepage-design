@@ -15,7 +15,7 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center pt-16 bg-dental-light"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/placeholder.svg')",
+          "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -51,11 +51,13 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2 flex justify-center animate-slide-in-right">
           <div className="relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-gold shadow-xl">
+            <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-gold shadow-xl bg-white flex items-center justify-center">
+              {/* Foto profesional del doctor */}
               <img
-                src="/placeholder.svg"
-                alt="Dr. Iván Abril"
+                src="/lovable-uploads/e33e45c7-dd53-4204-91d1-f9e643c1be7c.png"
+                alt="Dr. Iván Abril, Especialista en Estética Dental"
                 className="w-full h-full object-cover"
+                loading="eager"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-gold text-white rounded-lg py-3 px-6 shadow-lg">

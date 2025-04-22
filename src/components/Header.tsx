@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -10,7 +9,6 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Detect scroll position to change header style
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -37,15 +35,20 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white shadow-md py-2"
-          : "bg-transparent py-4"
+        isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#hero" className="flex items-center">
-          <span className="text-2xl font-playfair font-bold text-gold">
+        <a href="#hero" className="flex items-center gap-3">
+          <img
+            src="/lovable-uploads/36384e56-8f20-4fc1-b1d7-bfc755ce67d7.png"
+            alt="DentalGold Logo"
+            className="h-12 w-auto object-contain"
+            style={{ minWidth: "48px" }}
+            loading="eager"
+          />
+          <span className="hidden md:inline text-2xl font-playfair font-bold text-gold">
             DR. IVÁN <span className="text-gray-800">ABRIL</span>
           </span>
         </a>
